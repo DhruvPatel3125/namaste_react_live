@@ -680,22 +680,30 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-        children: "Hello from Parcel and React!"
+const Headercomponent = function() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+            children: "Hello this is dhruv patel"
+        }, void 0, false, {
+            fileName: "index.js",
+            lineNumber: 7,
+            columnNumber: 13
+        }, this)
     }, void 0, false, {
         fileName: "index.js",
-        lineNumber: 4,
-        columnNumber: 19
-    }, undefined);
-_c = App;
+        lineNumber: 6,
+        columnNumber: 9
+    }, this);
+};
+_c = Headercomponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Headercomponent, {}, void 0, false, {
     fileName: "index.js",
-    lineNumber: 7,
+    lineNumber: 13,
     columnNumber: 13
 }, undefined));
 var _c;
-$RefreshReg$(_c, "App");
+$RefreshReg$(_c, "Headercomponent");
 
   $parcel$ReactRefreshHelpers$3d99.postlude(module);
 } finally {
